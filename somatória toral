@@ -1,0 +1,18 @@
+algoritmo "media_final"
+// função:
+// autor: Christopher Barros
+//Data: 18/08/2022
+// seção de declarações
+var
+qtdePao:inteiro
+qtdleite:inteiro
+total:real
+inicio
+// seção de comando
+escreva("Pao R$1.0")
+leia(qtdePao)
+escreva("Leite litro R$3.5")
+leia(qtdleite)
+total<-(qtdePao * 1.0 + qtdleite * 3.5)
+escreva("total :",total)
+fimalgoritmo
